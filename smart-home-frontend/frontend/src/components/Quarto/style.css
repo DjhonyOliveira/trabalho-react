@@ -2,13 +2,9 @@
     display: flex;
 }
 
-#temp{
-    width: 50px;
-}
-
-.sala{
+.quarto{
     padding: 3em;
-    background-color: bisque;
+    background-color: #c5b4b48e;
     border-radius: 25px;
     box-shadow: 5px 2px #0002;
 }

@@ -1,13 +1,56 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   background-color: linear-gradient(180deg, #424242, #00090E);
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.comodos{
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+}
+
+h2{
+  text-align: center;
+}
+
+.casa h1{
+  text-align: center;
+}
+
 .status.on {
+  margin-bottom: 5px;
   display: block;
 }
 
 .status.off {
   display: none;
+}
+
+img{
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+button{
+  border-color: #fff;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.developer{
+  margin-top: 30px;
+  text-align: center;
+}
+
+@media(max-width: 1440px){
+  .comodos{
+    flex-direction: column;
+  }
 }
