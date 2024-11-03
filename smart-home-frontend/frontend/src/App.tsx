@@ -16,7 +16,7 @@ const App: React.FC = () => {
           <Quarto/>
         </div>
       </div>
-      <p className='developer'>Desenvolvido por: Djonatan R. Oliveira</p>
+      <p className='developer'>Desenvolvido por: Djonatan R. Oliveira e Ayrton Lorenzo Klettenberg</p>
     </body>
   );
 }
